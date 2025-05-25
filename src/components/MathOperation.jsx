@@ -30,7 +30,7 @@ function MathOperation(props) {
       {num1}, {num2}
       <hr />
       <button
-        className="text-white rounded-2xl cursor-pointer my-3 bg-black p-3"
+        className="text-white rounded-2xl cursor-pointer my-3 bg-black p-3 px-4"
         onClick={handleMath}
       >
         <h1 className="uppercase">{props.operation}</h1>

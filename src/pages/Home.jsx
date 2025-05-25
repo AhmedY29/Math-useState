@@ -3,7 +3,7 @@ import MathOperation from "../components/MathOperation";
 
 function Home() {
   return (
-    <div className="flex justify-center w-full">
+    <div className="flex justify-center items-center h-screen w-full">
       <div className="flex justify-between w-[80%]">
       <MathOperation operation={"Sum"} num1={10} num2={20} />
       <MathOperation operation={"sub"} num1={10} num2={20} />
